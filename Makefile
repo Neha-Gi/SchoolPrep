@@ -22,7 +22,3 @@ dev-showmigration:
 	python manage.py showmigrations --settings=config.settings.dev
 dev-remote:
 	python3 manage.py runserver 0.0.0.0:8000 --settings=config.settings.dev
-
-
-
-
