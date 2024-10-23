@@ -2,5 +2,6 @@
 ipython==8.25.0
 psycopg-binary==3.2.3
 django-extensions==3.2.3
+pillow==11.0.0
 
 
