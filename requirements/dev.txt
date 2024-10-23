@@ -2,6 +2,5 @@
 ipython==8.25.0
 psycopg-binary==3.2.3
 django-extensions==3.2.3
-django-multiselectfield==0.1.13
-pillow==10.4.0
-Faker==27.0.0
+
+
