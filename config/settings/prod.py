@@ -8,7 +8,8 @@ environ.Env.read_env(str(BASE_DIR / ".env.prod"))
 SECRET_KEY = env.str("SECRET_KEY")
 DEBUG = env.bool("DEBUG")
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["diplomatic-trust-production.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://diplomatic-trust-production.up.railway.app"]
 MIDDLEWARE = MIDDLEWARE + ["whitenoise.middleware.WhiteNoiseMiddleware"]
 
 # DATABASES = {
