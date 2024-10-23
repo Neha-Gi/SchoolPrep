@@ -9,14 +9,14 @@ DEBUG = env.bool("DEBUG")
 
 ALLOWED_HOSTS = ['*']
 
-THIRD_PARTY_APPS = [
-    'rest_framework',  # third party library
-    'rest_framework.authtoken',
-    'django_extensions',
+# THIRD_PARTY_APPS = [
+#     'rest_framework',  # third party library
+#     'rest_framework.authtoken',
+#     'django_extensions',
     
-]     
+# ]     
 
-INSTALLED_APPS = INSTALLED_APPS + THIRD_PARTY_APPS
+#INSTALLED_APPS = INSTALLED_APPS + THIRD_PARTY_APPS
 
 
 
